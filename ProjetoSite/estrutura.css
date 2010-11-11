@@ -22,15 +22,15 @@ img         { border: 0px;}
 .menuBusca ul li a		{ text-decoration: none; }
 #menuBusca       	    { text-aling:center; margin:auto; border: 1px solid; width: }
 
-/* LOJA */
+/* LOJA/LOJA */
 
-#loja               { width: 720px; margin: 0 auto 0 auto; }
-.lojalinha			{  }
-.imgLoja            {float:left; margin: 20px; }
-#tituloLoja         { width: 450px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; font-size:40px; margin: 20px 20px 0 auto;}
-#decritivoLoja      { width: 450px; text-align:center; float:right; text-decoration: none; color:black; top: 50%; margin: 20px 20px 0 auto;}
+#loja           { width: 720px; margin: 0 auto 0 auto; }
+.lojalinha		{ }
+.imgLoja        {float:left; margin: 20px; }
+#tituloLoja     { width: 450px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; font-size:40px; margin: 20px 20px 0 auto;}
+#decritivoLoja  { width: 450px; text-align:center; float:right; text-decoration: none; color:black; top: 50%; margin: 20px 20px 0 auto;}
 
-/* PRODUTOS */
+/* LOJA/PRODUTOS */
 #produtos		{ border:0px solid; width: 720px; margin: 20px auto 0 auto;}
 .linha			{ margin: 20px 0px; }
 .produtoContent	{ float:left; width: 170px; padding:5px; text-align:center;}
@@ -46,5 +46,45 @@ img         { border: 0px;}
 #menuInf ul	            { margin: 1px 10px 1px 10px; width: 900px; height: auto; float:left; }
 .menuInf                { }
 
+/* COMPRA/PRODUTO */
 
+#cProduto           { width: 720px; margin: 0 auto 0 auto; }
+.cProdutoLinha		{ }
+.imgcProduto        {float:left; margin: 20px; }
+#ctituloProduto     { width: 350px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; font-size:20px; margin: 20px 20px 0 auto;}
+#cdecritivoProduto  { width: 350px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; top: 50%; font-size:40px; margin: 20px 20px 0 auto;}
+#cdescritivoContent	{ float:left; width: 170px; padding:5px; text-align:center;}
+
+/* CARRINHO */
+
+#Carrinho              { width: 720px; margin: 0 auto 0 auto; border:1px solid; }
+#Carrinhotitulo        { width: 350px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; font-size:20px; margin: 20px 20px 0 auto;}
+#CarrinhoDescritivo    { width: 350px; text-align:center; float:right; text-decoration: none; color:black; font-weight: bold; top: 50%; font-size:40px; margin: 20px 20px 0 auto;}
+#CarrinhoContent	   { width: 720px; text-align:center;}
+#CarrinhoContentTable  { width: 720px; text-align:center; border:1px solid; }
+.CarrinhoFinCompra     { text-align:center }
+				table.carrinho {
+					border-width: 0px;
+					border-spacing: 0px;
+					border-style: hidden;
+					border-color: white;
+					border-collapse: collapse;
+					background-color: white;
+				}
+				table.carrinho th {
+					border-width: 0px;
+					padding: 2px;
+					border-style: inset;
+					border-color: white;
+					background-color: white;
+					-moz-border-radius: 0px 0px 0px 0px;
+				}
+				table.carrinho td {
+					border-width: 0px;
+					padding: 2px;
+					border-style: inset;
+					border-color: white;
+					background-color: white;
+					-moz-border-radius: 0px 0px 0px 0px;
+				}
 
