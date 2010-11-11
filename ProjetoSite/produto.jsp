@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="index.jsp">Home</a></li>
                 <li>|</li>
-                <li><a href="lojas.jsp">Loja</a></li>
+                <li><a href="loja.jsp">Loja</a></li>
                 <li>|</li>
                 <li><a href="apresentacao.jsp">Quem Somos?</a></li>
                 <li>|</li>

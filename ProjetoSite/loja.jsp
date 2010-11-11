@@ -9,12 +9,15 @@
 <body> <div class="pagina">
 
 <div class="content">
+
+<!-- MENU SUPERIOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
     <div id="topo">
         <div id="menuEsquerda" class="menu">
             <ul>
                 <li><a href="index.jsp">Home</a></li>
                 <li>|</li>
-                <li><a href="lojas.jsp">Loja</a></li>
+                <li><a href="loja.jsp">Loja</a></li>
                 <li>|</li>
                 <li><a href="apresentacao.jsp">Quem Somos?</a></li>
                 <li>|</li>
@@ -28,11 +31,11 @@
                 <li><a href="carrinho.jsp">Carrinho</a></li>
             </ul>
         </div>
-        <div class="clearFloat"></div>
-    </div>
+        	<div class="clearFloat"></div>
+    	</div>
     </div>
     
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!-- MENU DE BUSCA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
         <div id="menuBusca" class="menuBusca">
             <div class="menuBusca">
@@ -41,10 +44,11 @@
                 <li><a href="">Buscar</a></li>
             </ul>
             </div>
+              	<div class="clearFloat"></div>
         </div>
-        <div class="clearFloat"></div>
 
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<!--MENU DA LOJA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
     
         <div id="loja">
 		  <a href="Index.html">
@@ -62,76 +66,80 @@
          </div>
     	 </a>
 
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--MENU DE PRODUTOS DA LOJA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
     <div></div>
     <div id="produtos">
         <div class="linha">
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-         	<div class="clearFloat"></div>
-         </div>
+                    <a href="produto.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <div class="clearFloat"></div>
+                 </div>
          <div class="linha">
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a>  
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
-            <a href="Index.html">
-            <div class="produtoContent">
-            	<img src="imgprodutos/teste1.png" />
-                <label id="tituloProduto"><br/> Iphone 3G</label>
-                <label id="precoProduto"><br/>Por: R$ 1999,00</label>
-            </div>
-            </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a>  
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
+                    <a href="Index.html">
+                    <div class="produtoContent">
+                        <img src="imgprodutos/teste1.png" />
+                        <label id="tituloProduto"><br/> Iphone 3G</label>
+                        <label id="precoProduto"><br/>Por: R$ 1999,00</label>
+                    </div>
+                    </a> 
          	<div class="clearFloat"></div>
          </div>
-    </div> <!-- fechamento da div produto -->
+    </div>
+    
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->    
+
     <div id="footer"></div>
 </div>
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+<!--MENU DE CONTATO/INFORMAÇAO XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
         <div id="menuInf" class="menuInf">
             <div class="menuInf">
@@ -146,7 +154,7 @@
         </div>
         <div class="clearFloat"></div>
 
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<!--MENU INFERIOR XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
     
     <div id="topo">
         <div id="menuEsquerda" class="menu">

@@ -41,7 +41,7 @@
                 <li><a href="">Buscar</a></li>
             </ul>
           </div>
-        </div>
+        </div> 
         <div class="clearFloat"></div>
 
 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
@@ -123,9 +123,10 @@
 
 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
-    <div></div>
-    <div id="footer"></div>
-</div>
+    <div id="footer"></div> 
+</div> 
+<div><p></p></div>
+
 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 
         <div id="menuInf" class="menuInf">
@@ -140,6 +141,7 @@
             </div> 
         </div>
         <div class="clearFloat"></div>
+		
 
 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
     
