@@ -1,0 +1,144 @@
+@charset "utf-8";
+<style type="text/css">
+*			{ margin: 0; padding: 0; }
+.content	{ width: 900px; margin: 0 auto; }
+.clearFloat	{ clear:both; height:0; font-size: 1px; line-height: 0px;  }
+body		{ font-family:calibri; background-color:#0CC}
+img         { border: 0px;}
+.pagina     { width: 900px; margin: 0 auto; border: 1px solid; background-color:#FFF}
+
+/* MENU GERAL */
+#topo					{ border: 1px solid; }
+.menu ul li 			{ display: inline; margin-right: 0; list-style: none;}
+.menu ul li a			{ text-decoration: none; }
+.menuEmbaixo      	    { margin: 20px auto 0 auto; }
+#menuEsquerda ul		{ width: 300px; float:left; }
+#menuDireita ul			{ width: 180px; float:right;}
+
+/* MENU BUSCA */
+
+.menuBusca              { text-align:center; }
+.menuBusca ul li		{ display: inline; margin-right: 5px; list-style: none;}
+.menuBusca ul li a		{ text-decoration: none; }
+#menuBusca       	    { text-aling:center; margin:auto; border: 1px solid; width: }
+
+/* LOJA/LOJA */
+
+#loja          			{ width: 720px; margin: 0 auto 0 auto; }
+.lojalinha				{ }
+.imgLoja        		{ float:left; margin: 20px; }
+#tituloLoja     			{ 
+								width: 450px; 
+								text-align:center; 
+								float:right; 
+								text-decoration: 
+								none; color:black; 
+								font-weight: bold; 
+								font-size:40px; 
+								margin: 20px 20px 0 auto;
+							}
+#decritivoLoja  			{
+								width: 450px;
+								text-align:center;
+								float:right;
+								text-decoration: none;
+								color:black;
+								top: 50%;
+								margin: 20px 20px 0 auto;
+							}
+
+/* LOJA/PRODUTOS */
+
+#produtos				{ border:0px solid; width: 720px; margin: 20px auto 0 auto;}
+.linha					{ margin: 20px 0px; }
+.produtoContent			{ float:left; width: 170px; padding:5px; text-align:center;}
+#tituloProduto  		{ text-decoration: none; color:black }
+#precoProduto   		{ text-decoration: none; color:#06F; font-weight: bold; }
+
+/* CONTATOS */
+
+#menuInf         	    { text-aling:center; margin:auto; border: 1px solid; }
+.menuInf ul li a		{ text-decoration: none; }
+.menuInf ul li  		{ display: inline; margin-right: 1px; list-style: none;}
+#menuInf ul	            { margin: 1px 10px 1px 10px; width: 900px; height: auto; float:left; }
+.menuInf                { }
+
+/* COMPRA/PRODUTO */
+
+#cProduto        	   { width: 720px; margin: 0 auto 0 auto; }
+.cProdutoLinha		   { }
+.imgcProduto      	   {float:left; margin: 20px; }
+#ctituloProduto   	  	   { 
+								width: 350px;
+								text-align:center;
+								float:right;
+								text-decoration: none;
+								color:black;
+								font-weight: bold;
+								font-size:20px;
+								margin: 20px 20px 0 auto;
+							}
+#cdecritivoProduto    	    { 
+								width: 350px;
+								text-align:center;
+								float:right;
+								text-decoration: none;
+								color:black;
+								font-weight: bold;
+								top: 50%;
+								font-size:40px;
+								margin: 20px 20px 0 auto;
+							}
+#cdescritivoContent	   { float:left; width: 170px; padding:5px; text-align:center;}
+
+/* CARRINHO */
+
+#Carrinho              { width: 720px; margin: 0 auto 0 auto; border:1px solid; }
+#Carrinhotitulo       	   {
+								width: 350px;
+								text-align:center; float:right;
+								text-decoration: none;
+								color:black;
+								font-weight: bold;
+								font-size:20px;
+								margin: 20px 20px 0 auto;
+							}
+#CarrinhoDescritivo    		{
+								width: 350px;
+								text-align:center;
+								float:right;
+								text-decoration: none;
+								color:black;
+								font-weight: bold;
+								top: 50%;
+								font-size:40px;
+								margin: 20px 20px 0 auto;
+							}
+#CarrinhoContent	   { width: 720px; text-align:center;}
+#CarrinhoContentTable  { width: 720px; text-align:center; border:1px solid; }
+.CarrinhoFinCompra     { text-align:center }
+						table.carrinho {
+							border-width: 0px;
+							border-spacing: 0px;
+							border-style: hidden;
+							border-color: white;
+							border-collapse: collapse;
+							background-color: white;
+						}
+						table.carrinho th {
+							border-width: 0px;
+							padding: 2px;
+							border-style: inset;
+							border-color: white;
+							background-color: white;
+							-moz-border-radius: 0px 0px 0px 0px;
+						}
+						table.carrinho td {
+							border-width: 0px;
+							padding: 2px;
+							border-style: inset;
+							border-color: white;
+							background-color: white;
+							-moz-border-radius: 0px 0px 0px 0px;
+						}
+</style>
